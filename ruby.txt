@@ -1,0 +1,107 @@
+# 1. Palabras reservadas (algunos ejemplos)
+class Persona
+  def initialize(nombre, edad)
+    @nombre = nombre
+    @edad = edad
+  end
+
+  def info
+    if @edad >= 18  # 12. Expresiones condicionales
+      puts "#{@nombre} es mayor de edad"
+    else
+      puts "#{@nombre} es menor de edad"
+    end
+  end
+end
+
+# 2. Identificadores o variables que inicien con mayúscula
+EdadMinima = 18
+
+# 3. Identificadores que inicien con Mayúscula cuya longitud sea mayor a 7
+CapitalTotal = 10000
+
+# 4. Identificadores o variables que contengan algún guión bajo
+nombre_completo = "Juan Pérez"
+
+# 5. Identificadores o variables que finalicen con un número
+variable1 = 10
+
+# 6. Identificadores o variables que inician con alguna vocal
+edad = 25
+
+# 7. Expresiones que permiten asignar un valor a una variable
+a = 1
+pi = 3.14159
+
+# 8. Expresiones aritméticas básicas
+suma = a + pi
+cont = 1
+cont = cont + 1  # Incremento de contador
+
+# 9. Expresiones aritméticas que contengan el operador módulo
+modulo_result = 10 % 3
+
+# 10. Expresiones encerradas entre comillas
+mensaje = "Hola, mundo"
+puts 'Este es un mensaje de prueba'
+
+# 11. Comentarios
+# Este es un comentario de ejemplo en Ruby
+
+# 12. Expresiones condicionales
+num1 = 10
+num2 = 20
+if num1 != num2
+  puts "Los números son diferentes"
+end
+
+# 13. Expresiones lógicas con el operador and
+if num1 > 1 && num2 <= 20
+  puts "Condición con AND"
+end
+
+# 14. Expresiones lógicas con el operador or
+if edad > 18 || edad ==20
+  puts "Condición con OR"
+end
+
+# 15. Encabezado de las estructura de control if / while / for
+for i in 0..5
+  puts i
+end
+
+while cont <= 5
+  puts cont
+  cont += 1
+end
+
+# 16. Arreglos
+arreglo = [1, 2, 3, 4, 5]
+
+# 17. Funciones o métodos
+def saludo(nombre)
+  "Hola, #{nombre}"
+end
+puts saludo("Juan")
+
+# 18. Clases
+class Animal
+  def initialize(tipo)
+    @tipo = tipo
+  end
+
+  def mostrar_tipo
+    puts "El tipo de animal es: #{@tipo}"
+  end
+end
+
+gato = Animal.new("Felino")
+gato.mostrar_tipo
+
+# 19. Correos electrónicos
+email = "usuario@example.com"
+puts "Correo electrónico válido: #{email}"
+https:
+url = "https://www.ejemplo.com/ruta/a/recurso?parametro=valor#fragmento"
+
+And
